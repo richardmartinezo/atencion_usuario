@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-AtencionUsuario-20161122212319;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-AtencionUsuario-20161122212319.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\AtencionUsuarioV3\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="iFISConnectionString-Web.config Connection String" description="iFISConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=win-sqlserv-01;Initial Catalog=iFIS;Persist Security Info=True;User ID=adminsql;Password=sistema*-!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\AtencionUsuarioV3\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='iFISConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="iFISpruebasConnectionString-Web.config Connection String" description="iFISpruebasConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=win-sqlserv-01;Initial Catalog=iFISpruebas;User ID=adminsql;Password=sistema*-!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\AtencionUsuarioV3\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='iFISpruebasConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

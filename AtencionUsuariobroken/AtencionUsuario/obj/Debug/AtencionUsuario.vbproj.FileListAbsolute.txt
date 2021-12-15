@@ -1,0 +1,4 @@
+C:\proyectos\AtencionUsuario\AtencionUsuario\AtencionUsuario\obj\Debug\AtencionUsuario.vbprojResolveAssemblyReference.cache
+C:\proyectos\AtencionUsuario\AtencionUsuario\AtencionUsuario\obj\Debug\AtencionUsuario.Resources.resources
+C:\proyectos\AtencionUsuario\AtencionUsuario\AtencionUsuario\obj\Debug\AtencionUsuario.vbproj.GenerateResource.Cache
+C:\proyectos\AtencionUsuario\AtencionUsuario\AtencionUsuario\obj\Debug\AtencionUsuario.dll.licenses

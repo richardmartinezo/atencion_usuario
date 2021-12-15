@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="atencionusuario" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\proyectos\\AtencionUsuario\\AtencionUsuario\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\proyectos\\AtencionUsuario\\AtencionUsuario\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-AtencionUsuario-20161122212319;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-AtencionUsuario-20161122212319.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\AtencionUsuario\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="iFISConnectionString-Web.config Connection String" description="" value="Data Source=win-sqlserv-01;Initial Catalog=iFIS;Persist Security Info=True;User ID=adminsql;Password=sistema*-!" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\AtencionUsuario\\AtencionUsuario\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='iFISConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

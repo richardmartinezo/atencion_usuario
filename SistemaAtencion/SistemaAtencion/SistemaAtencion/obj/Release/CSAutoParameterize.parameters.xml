@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-SistemaAtencion-20161126120001;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-SistemaAtencion-20161126120001.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\SistemaAtencion\\SistemaAtencion\\SistemaAtencion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="iFISConnectionString-Web.config Connection String" description="iFISConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=win-sqlserv-01;Initial Catalog=iFISpruebas;Persist Security Info=True;User ID=adminsql;Password=sistema*-!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\SistemaAtencion\\SistemaAtencion\\SistemaAtencion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='iFISConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="win-sqlserv-01_iFISpruebas_Connection-Web.config Connection String" description="win-sqlserv-01_iFISpruebas_Connection Connection String used in web.config by the application to access the database." defaultValue="XpoProvider=MSSqlServer;data source=win-sqlserv-01;user id=adminsql;password=sistema*-!;initial catalog=iFISpruebas;Persist Security Info=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\proyectos\\AtencionUsuario\\SistemaAtencion\\SistemaAtencion\\SistemaAtencion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='win-sqlserv-01_iFISpruebas_Connection']/@connectionString" />
+  </parameter>
+</parameters>
